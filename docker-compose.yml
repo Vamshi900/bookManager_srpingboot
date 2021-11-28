@@ -7,6 +7,7 @@ services:
       container_name: scanbook-db
       environment:
         - MYSQL_ROOT_PASSWORD=spring
+        - MYSQL_DATABASE=library
       ports:
         - "3306:3306"
       restart: always
@@ -56,4 +57,9 @@ services:
       depends_on:
         - sacnbookapiservice
       environment:
-        api_endpoint: http:localhost:8084/books
+        api_endpoint: http://localhost:8084/books
+    
+    mysql_seeding:
+     build: seedData
+     depends_on:
+      - db     
