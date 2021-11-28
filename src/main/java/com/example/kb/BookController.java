@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Optional;
 
+@CrossOrigin(maxAge = 3600)
 @RestController
 public class BookController {
     @Autowired
@@ -55,6 +56,7 @@ public class BookController {
         return "Book updated successfully"+newBook.getIsbn();
     }
 
+    @CrossOrigin
     @RequestMapping(method = RequestMethod.DELETE, value = "/books/{isbn}")
     public String deleteBook(@PathVariable String isbn) {
         this.bookService.deleteBookByIsbn(isbn);
