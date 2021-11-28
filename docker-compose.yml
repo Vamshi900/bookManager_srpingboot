@@ -61,5 +61,6 @@ services:
     
     mysql_seeding:
      build: seedData
+     restart: always
      depends_on:
       - db     
