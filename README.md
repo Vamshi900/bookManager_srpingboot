@@ -57,10 +57,10 @@ A High Level Over view of Front end
 - On sucessful validation book is added to the database and then updated back in the ui
 
 ### Delete Book 
-- First  book is deleted in the database and on sucessful then updated back in the ui
+- Book is Deleted in the database and only if it is sucessful ui is updated
 
 ### Update Book 
-- First  book is updated in the database and on sucessful then updated back in the ui
+- Book is updated in the database and if it is sucessful ui is updated
 
 
 ## API/Backend
@@ -72,7 +72,14 @@ A High Level Over view of Front end
 - Bookinterface ( Curd operations interface)
 - Book.java (Entity)
 
+## Database 
 
+- Mysql Db
+
+
+## Infrastructure
+ 
+ - Docker and Docker compose 
 
 
 
