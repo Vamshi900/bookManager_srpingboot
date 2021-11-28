@@ -1,0 +1,11 @@
+.collection-create-form_last-form-item {
+    margin-bottom: 20px;
+
+  }
+
+.addBook{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}  

@@ -1,0 +1,14 @@
+.actionButton{
+    cursor: pointer;
+    color:blue;
+}
+
+/* .dataTable thead{
+  background-color: blue;
+  color: white;  
+} */
+.ant-table-title{
+  color: black;
+  font-size: large;
+  font-weight: 600;
+}

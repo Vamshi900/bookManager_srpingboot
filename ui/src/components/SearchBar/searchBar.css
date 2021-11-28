@@ -1,0 +1,11 @@
+.searchBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 18%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 5px blanchedalmond;
+    width: 60%;
+
+}
