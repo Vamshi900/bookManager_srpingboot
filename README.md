@@ -46,7 +46,7 @@ A High Level Over view of Front end
 
 ### DataTable
 - The Data table was used to support huge set of books - even upto 100,000
-- Pagination is availbale in the table which is enchable for loading books on demand as user scrolls pages 
+- Pagination is availbale in the table which is enhanceable for loading books on demand as user scrolls pages 
 - Each record has it's actions (Update,Delete)
 
 
@@ -67,9 +67,8 @@ A High Level Over view of Front end
 
 - A Simple Rest api using Java Spring 
 - Entity (isbn,title,author,pages,status(boolean)(read/notyet),notes)
-- BookController (Exposes the Routes and handles requests)
 - BookService(Bussiness Logic for end point)
-- Bookinterface ( Curd operations interface)
+- Bookinterface ( Crud operations interface)
 - Book.java (Entity)
 
 ## Database 
@@ -79,7 +78,7 @@ A High Level Over view of Front end
 
 ## Infrastructure
  
- - Docker and Docker compose 
+ - Docker and Docker compose with 300 records of sample data 
 
 
 
